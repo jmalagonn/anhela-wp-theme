@@ -1,0 +1,81 @@
+.header-logo{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.header-logo svg{
+    max-width: 20rem;
+}
+
+.menu-section{
+    position: fixed;
+    z-index: 1;
+    top: 1rem;
+    right: 1rem;
+    padding: 1rem;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+.menu-section img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.menu-icon{
+    cursor: pointer;
+    fill: var(--brown);
+    width: 2rem;
+    height: 2rem;
+}
+
+.menu-icon.show{
+    fill: var(--white);
+}
+
+.menu-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transition: 2s;
+}
+
+.menu-list--hidden{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.menu-list li{
+    padding-top: .5rem;
+}
+
+.menu-list li a{
+    text-decoration: none;
+    color: var(--white);
+    transition: .5s;
+}
+
+.menu-list li a:hover{
+    color: var(--blue);
+    transition: .5s;
+}
+
+@media (max-width: 600px){
+    .header-logo{
+        margin-top: 0;
+    }
+    
+    .header-logo svg {
+        position: relative; 
+        left: -1.5rem;
+        top: -1rem;
+    }
+
+    .menu-section{
+        top: .5rem;
+        right: .5rem;
+        padding: .5rem;
+    }
+}

@@ -1,0 +1,25 @@
+.wp-post-image{
+    max-width: 100%;
+}
+
+.quantity .form-control{
+    max-width: 5rem;
+}
+
+.related.products .products {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    align-items: start;
+}
+
+.related.products .products .product{
+    display: inline-block;
+    width: calc(33%);
+    height: 100%;
+}
+
+.woocommerce-Tabs-panel--description{
+    display: block !important;
+}

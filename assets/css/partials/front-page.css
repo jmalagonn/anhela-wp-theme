@@ -1,0 +1,28 @@
+.hearth-section img{
+    width: 100%;
+}
+
+.anhela-isopo{
+    max-width: 10rem;
+}
+
+.highlight-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-button{
+    display: inline-block;
+    background-color: #f68f7e;
+    color: var(--white);
+    text-decoration: none;
+    transition: .5s;
+    font-weight: 600;
+    padding: 1.5rem;
+}
+
+.main-button:hover{
+    display: inline-block;
+    background-color: var(--blue);
+    color: var(--white);
+    transition: .5s;
+}

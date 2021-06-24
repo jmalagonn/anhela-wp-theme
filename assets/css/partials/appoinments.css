@@ -1,0 +1,30 @@
+.appoinments{
+    background: url('./../../images/sky.jpg') no-repeat center fixed;
+    background-size: cover;
+    padding: 2rem 0 0 6rem;
+}
+
+.appoinments .content{
+    padding: 2rem;
+}
+
+.appoinments .content h2{
+    position: relative;
+    left: -4rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.sentences{
+    margin-top: 3rem;
+}
+
+@media (max-width: 600px){
+    .sentences{
+        margin-top: 0rem;
+    }
+    
+    .col-sm-6:nth-child(2){
+        margin-top: 1rem;
+    }
+}

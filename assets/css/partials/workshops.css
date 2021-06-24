@@ -1,0 +1,25 @@
+.wk-card{
+    background: url('./../../images/sky.jpg') center no-repeat fixed;
+    background-size: cover;
+    padding: 2rem 0 2rem 2rem;
+}
+
+.wk-card--content{
+    padding: 1rem;
+}
+
+.wk-card .wk-title{
+    position: relative;
+    left: -2rem;
+}
+
+.wk-button .btn{
+    background-color: var(--blue);
+    padding: .1rem .5rem;
+    box-shadow: 0px 0px 3px 0px var(--blue);
+}
+
+.wk-button .btn:hover{
+    background-color: var(--white);
+    color: var(--brown);
+}

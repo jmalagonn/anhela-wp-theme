@@ -1,0 +1,41 @@
+.footer{
+    background-color: var(--blue);
+    padding: 4rem 0;
+}
+
+footer .ft-sn-icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: var(--brown)
+}
+
+.social-networks,
+.menu-bar{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.social-networks li,
+.menu-bar li{
+    display: inline-block;
+    padding: 0 .5rem;
+}
+
+.menu-bar li a{
+    color: var(--brown);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu-bar li a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 600px){
+    .footer .menu-bar li{
+        display: block;
+        margin-bottom: .5rem;
+    }
+}
+

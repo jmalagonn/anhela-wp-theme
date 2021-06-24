@@ -1,0 +1,17 @@
+:root{
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--brown);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'NewYork', Georgia, 'Times New Roman', Times, serif;
+}
+
+.swiper{
+    width: 100%;
+}
+

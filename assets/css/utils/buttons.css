@@ -1,0 +1,22 @@
+.btn{
+    border-radius: 0;
+    box-shadow: 0px 0px 3px 0px #000000
+}
+
+.btn-primary{
+    background-color: var(--brown);
+    color: var(--white);
+    border-color: var(--brown);
+}
+
+.btn-primary:hover{
+    background-color: var(--blue);
+    color: var(--brown);
+    border-color: var(--blue);
+}
+
+.btn-secondary{
+    background-color: var(--l-brown);
+    color: var(--brown);
+    border-color: var(--l-brown);
+}

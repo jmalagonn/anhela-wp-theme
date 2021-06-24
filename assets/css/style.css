@@ -1,0 +1,15 @@
+@import url('./utils/colors.css');
+@import url('./utils/buttons.css');
+@import url('./utils/product-card.css');
+@import url('./utils/img-sizes.css');
+@import url('./utils/fonts.css');
+@import url('./utils/wk-cards.css');
+@import url('./partials/main.css');
+@import url('./partials/header.css');
+@import url('./partials/footer.css');
+@import url('./partials/front-page.css');
+@import url('./partials/appoinments.css');
+@import url('./partials/workshops.css');
+@import url('./partials/aus.css');
+@import url('./partials/single-product.css');
+@import url('./partials/cart-page.css');

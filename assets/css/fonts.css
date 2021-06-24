@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'NewYork';
+    src: url('./../fonts/NEWYORK.woff') format('woff');
+    src: url('./../fonts/NEWYORK.OTF') format('otf');
+    src: url('./../fonts/NEWYORK.ttf') format('truetype');
+    src: url('./../fonts/NEWYORK.woff2') format('woff2');
+    src: url('./../fonts/NEWYORK.eot') format('EOT');
+}
