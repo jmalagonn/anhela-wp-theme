@@ -33,6 +33,16 @@
         ?>
     
     </div>
+    <div class="row mt-5 justify-content-center">
+        <div class="col-lg-7 col-md-9">
+            <p class="text-center fst-italic fs-5">
+                Quieres probar<br>
+                Cuando quieres algo es posible que pase<br>
+                Cuando deseas algo te esfuerzas porque pase<br>
+                Cuando ANHELAS algo...es cuando mágicamene sucede.
+            </p>
+        </div>
+    </div>
 </div>
 
 <?php get_footer() ?>
