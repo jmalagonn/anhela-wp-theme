@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-lg-7 col-md-8 mt-5">
             <div class="aus-main-img text-center">
-                <img src="<?php echo get_theme_file_uri('assets/images/angela_munoz.jpeg') ?>" alt="Angela Munoz">
+                <img src="https://anhela.co/wp-content/uploads/2021/06/Foto-pagina-web.png" alt="Angela Munoz">
             </div>
             <p class="text-center mt-4">
                 Yoga para sanar, Trofología para combinar adecuadamente los alimentos, Nutrición para deportistas, cambio de hábitos, guia de meditacion y Kabbalah.
@@ -14,8 +14,8 @@
                 Con gran devoción por compartir y servir. Guia y compañera de muchas vidas en mejorar su salud, caminos y destinos, adelantada en el tiempo y conectada con la naturaleza de la Unidad.
             </p>
             <ul class="list-unstyled list-inline aus-sn-icons text-center mt-5">
-                <li class="list-inline-item mr-3"><a href="/" target="_blank"><?php get_template_part('inc/icons/icons', 'use', ['icon' => 'instagram-icon', 'class' => 'fill-brown']) ?></a></li>
-                <li class="list-inline-item"><a href="/" target="_blank"><?php get_template_part('inc/icons/icons', 'use', ['icon' => 'whatsapp-icon', 'class' => 'fill-brown']) ?></a></li>
+                <li class="list-inline-item mr-3"><a href="https://www.instagram.com/anhelamas/" target="_blank"><?php get_template_part('inc/icons/icons', 'use', ['icon' => 'instagram-icon', 'class' => 'fill-brown']) ?></a></li>
+                <li class="list-inline-item"><a href="https://wa.me/529981473173" target="_blank"><?php get_template_part('inc/icons/icons', 'use', ['icon' => 'whatsapp-icon', 'class' => 'fill-brown']) ?></a></li>
             </ul>
         </div>
     </div>

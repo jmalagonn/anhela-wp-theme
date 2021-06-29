@@ -18,12 +18,12 @@
         <p class="text-center mt-5">ANELA &#169 Todos los derechos reservados 2021</p>
         <ul class="social-networks text-center mt-5">
             <li>
-                <a href="#" target="_blank">
+                <a href="https://wa.me/529981473173" target="_blank">
                     <?php get_template_part('inc/icons/icons', 'use', ['icon' => 'whatsapp-icon', 'class' => 'ft-sn-icon']) ?>
                 </a>
             </li>
             <li>
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/anhelamas/" target="_blank">
                     <?php get_template_part('inc/icons/icons', 'use', ['icon' => 'instagram-icon', 'class' => 'ft-sn-icon']) ?>
                 </a>
             </li>
