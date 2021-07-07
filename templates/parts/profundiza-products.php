@@ -14,7 +14,7 @@
                 <?php echo $data["description"] ?>
             </p>
             <?php
-            if (empty($data["price"])) {
+            if ($data["price"] === "") {
             ?>
                 <div class="wk-button">
                     <a href="<?php echo $args["item"]->get_attribute('product_link') ?>" target="_blank" class="btn"><?php _e('Ver más', 'anhela') ?></a>

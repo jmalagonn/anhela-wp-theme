@@ -19,11 +19,11 @@ const showMenu = () => {
     menuIcon.addEventListener('click', () => {
       menuIcon.classList.toggle('show');
   
-      if(document.querySelector(".menu-list.menu-list--hidden")){
-        document.querySelector(".menu-list.menu-list--hidden").classList.remove('menu-list--hidden');
+      if(document.querySelector(".menu-section .menu-list.menu-list--hidden")){
+        document.querySelector(".menu-section .menu-list.menu-list--hidden").classList.remove('menu-list--hidden');
         document.querySelector(".menu-section").style.backgroundColor = 'rgba(96, 97, 97, .75)';
       } else {
-        document.querySelector(".menu-list").classList.add('menu-list--hidden');
+        document.querySelector(".menu-section .menu-list").classList.add('menu-list--hidden');
         document.querySelector(".menu-section").style.backgroundColor = 'transparent';
       }
     })
