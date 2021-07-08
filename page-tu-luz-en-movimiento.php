@@ -57,11 +57,13 @@
                     <div class="content bg-white h-100">
                         <h2>Inhala</h2>
                         <div class="content-text mt-4">
-                            <p>Descubrimos cómo estas energéticamente<br>
-                            Analizamos tu energía y las infinitas posibilidades<br>
-                            Reprogramamos los parámetros que te impiden estar al 100%<br>
-                            Creamos a ti medida las herramientas que te mantienen<br>
-                            Nuestros encuentros están basados en el descubrimiento de tu energía sanadora a través de la física cuántica, la nutrición integral con énfasis en la trofología y la aplicación de hábitos realistas y prácticos</p>
+                            <ul>
+                                <li>Descubrimos cómo estas energéticamente</li>
+                                <li>Analizamos tu energía y las infinitas posibilidades</li>
+                                <li>Reprogramamos los parámetros que te impiden estar al 100%</li>
+                                <li>Creamos a tu medida las herramientas que te mantienen</li>
+                                <li>Nuestros encuentros están basados en el descubrimiento de tu energía sanadora a través de la física cuántica, la nutrición integral con énfasis en la trofología y la aplicación de hábitos realistas y prácticos</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -71,15 +73,17 @@
                     <div class="content bg-white h-100">
                         <h2>Exhala</h2>
                         <div class="content-text mt-4">
-                            <p>Y sé...<br>
-                            El espejo que tu eres<br>
-                            Con las influencias del universo en ti<br>
-                            Con lo que te mueve<br>
-                            Con un trabajo interno que se refleja en tu entorno y tu vida<br>
-                            Con un día armónico<br>
-                            Con todo tu potencial energético<br>
-                            Con las mejores herramientas para tú estar<br>
-                            Alquimia para autocuidarte</p>
+                            <ul>
+                                <li>Y sé...</li>
+                                <li>El espejo que tu eres</li>
+                                <li>Con las influencias del universo en ti</li>
+                                <li>Con lo que te mueve</li>
+                                <li>Con un trabajo interno que se refleja en tu entorno y tu vida</li>
+                                <li>Con un día armónico</li>
+                                <li>Con todo tu potencial energético</li>
+                                <li>Con las mejores herramientas para estar</li>
+                                <li>Alquimia para autocuidarte</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

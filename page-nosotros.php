@@ -1,7 +1,7 @@
 <?php get_header(null, ['class'=>'bg-a-white']) ?>
 
 <div class="container mt-5">
-    <h1 class="text-center"><?php _e('Ángela Muñóz', 'anhela') ?></h1>
+    <h1 class="text-center"><?php _e('Angela Muñoz', 'anhela') ?></h1>
     <div class="row justify-content-center">
         <div class="col-lg-7 col-md-8 mt-5">
             <div class="aus-main-img text-center">

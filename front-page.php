@@ -35,7 +35,7 @@
                     </p>
                     <p class="text-center mt-4">
                         Cada persona tiene necesidades únicas que van cambiando con el tiempo.<br>
-                        LLas consultas son Bio-Individuales y dedicadas a tu conocimiento interior y a tu conexión con la naturaleza, conócete a trevés del Kabbalah, conecta con prácticas muy sencillas, transfórmate con herramientas únicas y <b>Vive feliz</b>.
+                        Las consultas son Bio-Individuales y dedicadas a tu conocimiento interior y a tu conexión con la naturaleza, conócete a través del Kabbalah, conecta con prácticas muy sencillas, transfórmate con herramientas únicas y <b>Vive feliz</b>.
                     </p>
                 </div>
             </div>

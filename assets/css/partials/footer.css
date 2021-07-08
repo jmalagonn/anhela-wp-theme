@@ -17,19 +17,28 @@ footer .ft-sn-icon{
 }
 
 .social-networks li,
-.menu-bar li{
+.footer .menu-bar li{
     display: inline-block;
     padding: 0 .5rem;
 }
 
-.menu-bar li a{
+.footer .menu-bar li a{
     color: var(--brown);
     font-weight: 600;
     text-decoration: none;
 }
 
-.menu-bar li a:hover{
+.footer .menu-bar li a:hover{
     text-decoration: underline;
+}
+
+.footer .social-networks li a svg {
+    transition: 1s;
+}
+
+.footer .social-networks li a svg:hover {
+    fill: var(--white);
+    transition: 1s;
 }
 
 @media (max-width: 600px){
