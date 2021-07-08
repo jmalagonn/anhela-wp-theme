@@ -9,6 +9,7 @@
 
 .menu-section--desktop {
   position: fixed;
+  z-index: 2;
   width: 100%;
   top: 0;
   display: none;
@@ -17,8 +18,8 @@
   background-color: var(--white);
 }
 .menu-section--desktop .menu-list {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .menu-section--desktop .menu-list li {
   display: inline-block;
@@ -33,70 +34,55 @@
   color: var(--brown);
   text-decoration: none;
 }
+.menu-section--desktop .menu-list li a:hover {
+  color: var(--blue);
+}
 
 .menu-section {
   position: fixed;
   z-index: 1;
-  top: 1rem;
-  right: 1rem;
-  padding: 1rem;
-  border-radius: 3px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--white);
+  padding: .5rem 1rem;
   transition: 1s;
 }
-.menu-section img {
+.menu-section .menu-icon--container svg {
   width: 2rem;
   height: 2rem;
-  cursor: pointer;
-}
-.menu-section .menu-icon {
   cursor: pointer;
   fill: var(--brown);
-  width: 2rem;
-  height: 2rem;
+  transition: 0.5s;
 }
-.menu-section .menu-icon.show {
-  fill: var(--white);
-}
-.menu-section .menu-list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  transition: 2s;
-}
-.menu-section .menu-list--hidden {
-  width: 0;
-  height: 0;
+.menu-section .menu-list--container {
+  max-height: 0;
+  transition: .5s;
   overflow: hidden;
 }
-.menu-section .menu-list li {
-  padding-top: 0.5rem;
+
+.menu-section.show {
+  background-color: var(--brown);
 }
-.menu-section .menu-list li a {
-  text-decoration: none;
+.menu-section.show .menu-icon--container svg {
+  fill: var(--white);
+  transition: 0.5s;
+}
+.menu-section.show .menu-list--container {
+  max-height: 100vh;
+  transition: .5s;
+}
+.menu-section .menu-list--container .menu-list {
+  list-style: none;
+  padding: 1rem 0 0 0;
+  margin: 0;
+}
+.menu-section .menu-list--container .menu-list li {
+  margin-bottom: 1rem;
+}
+.menu-section .menu-list--container .menu-list li a {
   color: var(--white);
-  transition: 0.5s;
-}
-.menu-section .menu-list li a:hover {
-  color: var(--blue);
-  transition: 0.5s;
-}
-
-@media (max-width: 600px) {
-  .header-logo {
-    margin-top: 0;
-  }
-
-  .header-logo svg {
-    position: relative;
-    left: -1.5rem;
-    top: -1rem;
-  }
-
-  .menu-section {
-    top: 0.5rem;
-    right: 0.5rem;
-    padding: 0.5rem;
-  }
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {

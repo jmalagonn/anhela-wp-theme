@@ -1,4 +1,4 @@
-<section class="menu-section--desktop">
+<section class="menu-section--desktop" <?php echo is_user_logged_in() ? 'style="top: 32px"' : null ?>>
     <?php
     if (has_nav_menu('primary')) {
         wp_nav_menu([
