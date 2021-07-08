@@ -24,13 +24,15 @@ const showMenu = () => {
 
 const menuMobilePosition = () => {
   document.addEventListener("scroll", (e) => {
-    if (window.innerWidth < 600) {
-      const menuBar = document.querySelector(".menu-section");
+    if (document.querySelector("#wpadminbar")) {
+      if (window.innerWidth < 600) {
+        const menuBar = document.querySelector(".menu-section");
 
-      if (window.scrollY < 46) {
-        menuBar.style.top = 46 - window.scrollY + "px";
-      } else {
-        menuBar.style.top = "0";
+        if (window.scrollY < 46) {
+          menuBar.style.top = 46 - window.scrollY + "px";
+        } else {
+          menuBar.style.top = "0";
+        }
       }
     }
   });
