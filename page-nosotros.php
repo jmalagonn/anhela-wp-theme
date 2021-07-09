@@ -11,7 +11,10 @@
                 Yoga para sanar, Trofología para combinar adecuadamente los alimentos, Nutrición para deportistas, cambio de hábitos, guia de meditacion y Kabbalah.
             </p>
             <p class="text-center">
-                Con gran devoción por compartir y servir. Guia y compañera de muchas vidas en mejorar su salud, caminos y destinos, adelantada en el tiempo y conectada con la naturaleza de la Unidad.
+                Con gran devoción por compartir y servir. Guia y compañera de muchas vidas en mejorar su salud, caminos y destinos, conectada con la naturaleza de la Unidad.
+            </p>
+            <p class="text-center">
+            Especialista en Biocomunicación y  física cuántica para equilibrar energía  y  eliminar el stress.
             </p>
             <ul class="list-unstyled list-inline aus-sn-icons text-center mt-5">
                 <li class="list-inline-item mr-3"><a href="https://www.instagram.com/anhelamas/" target="_blank"><?php get_template_part('inc/icons/icons', 'use', ['icon' => 'instagram-icon', 'class' => 'fill-brown']) ?></a></li>
