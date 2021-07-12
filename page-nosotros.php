@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-lg-7 col-md-8 mt-5">
             <div class="aus-main-img text-center">
-                <img src="https://anhela.co/wp-content/uploads/2021/06/Foto-pagina-web.png" alt="Angela Munoz">
+                <img src="https://anhela.co/wp-content/uploads/2021/07/Foto-pagina-web3.png" alt="Angela Munoz">
             </div>
             <p class="text-center mt-4">
                 Yoga para sanar, Trofología para combinar adecuadamente los alimentos, Nutrición para deportistas, cambio de hábitos, guia de meditacion y Kabbalah.
