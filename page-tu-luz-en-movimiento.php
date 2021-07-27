@@ -3,7 +3,7 @@
 <section class="container">
     <div class="row justify-content-center">
         <div class="col text-center">
-            <img class="mw-100" src="https://anhela.co/wp-content/uploads/2021/07/Espejo.png" alt="">
+            <img class="mw-100 mirror-img" src="https://anhela.co/wp-content/uploads/2021/07/Espejo.png" alt="">
         </div>
     </div>
 </section>

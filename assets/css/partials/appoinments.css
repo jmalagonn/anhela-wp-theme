@@ -19,6 +19,10 @@
     margin-top: 3rem;
 }
 
+.mirror-img{
+    max-height: 500px;
+}
+
 @media (max-width: 600px){
     .sentences{
         margin-top: 0rem;
